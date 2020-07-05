@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #696969;
+    color: #fff;
+    padding-right: 32px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%;
+}
+
+a {
+    color: #fff;
+    margin-right: 16px; 
+    text-decoration: none; 
+}
+
+input {
+    margin-left: 64px;
+    margin-right: 8px;
+    background: transparent;
+    border: transparent;
+    border-bottom: #fff solid 1px;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+}
