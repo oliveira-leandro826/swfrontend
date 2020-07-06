@@ -8,6 +8,5 @@ export default function Sidebar(){
 		<div> <FontAwesomeIcon icon= {faInstagram} color="white" style={{padding:32}}/> </div>
 		<div> <FontAwesomeIcon icon= {faFacebook} color="white" style={{padding:32}}/> </div>
 		<div> <FontAwesomeIcon icon= {faTwitter} color="white" style={{padding:32}}/> </div> </div>);
-
-
+	
 }
